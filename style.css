@@ -17,7 +17,6 @@
     width: 100%;
     padding: 24px 20px 0 20px;
     position: absolute;
-    z-index: 2;
     top: 0;
 }
 .navigation{
@@ -64,6 +63,7 @@
     height: auto;
 }
 .top_text{
+    width: 100%;
     padding: 50px 0 50px 0;
     text-align: center;
     display: flex;
@@ -167,8 +167,9 @@
 }
 .cherry_container{
     position: relative;
+    height: auto;
 }
-.cherry_container > img{
+.cherry_container > .cherry_bitmap{
    width: 100%;
    height: auto;
 }
@@ -176,7 +177,6 @@
     width: 100%;
     position: absolute;
     bottom: 60px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 32px;
