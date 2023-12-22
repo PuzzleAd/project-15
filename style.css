@@ -47,7 +47,7 @@
 .downside_arrow{
     position: absolute;
     bottom: 30%;
-    left: 50%;
+    left: 47%;
 }
 .four_image_container{
     position: relative;
@@ -165,7 +165,81 @@
     opacity: 0.25;
     background: #FE7766;
 }
+.cherry_container{
+    position: relative;
+}
 .cherry_container > img{
    width: 100%;
    height: auto;
+}
+.cherry_container > .cherry_text{
+    width: 100%;
+    position: absolute;
+    bottom: 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cherry_text > h1{
+    max-width: 327px;
+    color: #24554A;
+    font-family: Fraunces;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.2px;
+}
+.cherry_text > p{
+    max-width: 327px;
+    color: #24554A;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px; /* 168.75% */
+    letter-spacing: -0.114px;
+}
+.tangerine_container{
+    position: relative;
+    top: -4px;
+}
+.tangerine_container > img{
+    width: 100%;
+    height: auto;
+}
+.tangerine_text{
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    text-align: center;
+}
+.tangerine_text > h1{
+    max-width:  327px;
+    color: #052C3B;
+    font-family: Fraunces;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.2px;
+}
+.tangerine_text > p{
+    max-width: 327px;
+    color: #19536C;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px; /* 168.75% */
+    letter-spacing: -0.114px;
 }
